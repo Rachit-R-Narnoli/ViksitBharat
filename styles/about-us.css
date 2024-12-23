@@ -1,0 +1,39 @@
+.about-us {
+    text-align: center;
+    padding: 2rem;
+}
+
+.profilepic2 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    position:relative;
+}
+
+.about-us .skillsinmes {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.about-us .skillsinme {
+    padding: 1rem;
+    border:none;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.about-us .skillsinme.highlight {
+    background-color: #000;
+    color: #fff;
+}
+
+.about-us .skillsinme h3 {
+    margin: 1rem 0;
+}
+
